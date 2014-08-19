@@ -1,0 +1,451 @@
+/***************************
+ * styles.css
+ * Globalni stylesheet.
+ **************************/
+
+
+.submit 
+{
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background-color:silver;
+    width: 153px;    
+    display:inline-block;
+    color: gray;
+    text-align: center;
+    font-family:arial;
+    font-size:20px;
+    font-weight:bold;
+    padding: 6px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #ffffff;
+}
+
+.submit:hover 
+{
+    background-color:#858487;
+}
+
+.submit:active 
+{
+    position:relative;
+    top:1px;
+}
+
+.links
+{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+    margin-top: 10px;
+}
+
+.links ul 
+{
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+.links li 
+{
+    float:left;
+    position:relative;    
+}
+
+
+
+.links a
+{
+    text-decoration:none;
+    float:left;
+    
+    border-left: 2px orange;
+    border-right: 2px orange;
+    color: silver;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;    
+    background-color: #fff;
+}
+
+.links a:hover
+{ 
+    border:1px #000;
+    color:gray;
+    background:#f2f2f2;
+    border: 2px orange;
+}
+
+.links li a:active
+{
+    background-color: black;
+}
+
+a img
+{
+    border: 0;
+}
+
+*
+{
+    margin: auto;
+}
+
+h2
+{
+    color: silver;
+}
+
+body
+{
+    background: #ffffff;
+    color: #000000;
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    border: 5px solid black;
+    min-height: 100%;
+}
+
+html
+{
+    height: 100%;
+    background-color: silver;
+}
+
+span
+{
+    font-size: 8;
+    color: red;
+}
+
+p 
+{
+    margin-top: 10px;
+}
+
+.styled_select select 
+{
+   background: silver;
+   width: 153px;
+   padding: 5px;
+   font-size: 12px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+
+   -webkit-appearance: none;
+}
+
+#select_user
+{
+    width: 184px;
+    border-radius: 10px;
+}
+
+input.normal_input 
+{ 
+    background-color: silver;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input:hover,input:focus 
+{ 
+    border-color: #C9C9C9; 
+    -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+
+}
+
+input:focus
+{
+    background-color: white;
+}
+
+.submit input 
+{
+    width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 14px;
+    color: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.form_container 
+{
+    width: 40%;
+}
+
+.labels {
+    font-style: italic;
+    color: #999999;
+    font-size: 11px;
+}
+
+
+div#middle
+{
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+
+}
+
+div#top
+{
+    text-align: center;
+
+}
+
+div#bottom
+{
+    text-align: center;
+
+}
+
+div#footer
+{
+    text-align: center; 
+    display: block;
+    position:absolute;
+    bottom:0;
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    background-color: silver;
+    color: white;
+
+}
+
+div#form_container
+{
+    margin:0 auto;
+    width:400px;
+    padding:14px;
+}
+
+form
+{
+    margin: 0;
+}
+
+table
+{
+    margin: 0px auto;
+}
+
+td
+{
+    border: 0;
+    padding: 10px 10px;
+}
+
+table#history tr:nth-child(1)
+{
+    font-weight: bold;
+    background-color: white;
+}
+
+table#history tr:nth-child(even)
+{
+    background-color: silver;
+}
+
+table#history tr:hover
+{
+    background-color: #708090;
+    color: #fff;
+}
+
+table#stocks_tbl
+{
+    width: 60%;
+}
+
+table#stocks_tbl tr:nth-child(1)
+{
+    font-weight: bolder;
+    background-color: white;
+}
+
+table#stocks_tbl tr:nth-child(even)
+{
+    background-color: silver;
+}
+
+table#stocks_tbl tr:last-child
+{
+    border-top: double black;
+}
+
+table#stocks_tbl tr:hover
+{
+    background-color: #708090;
+    color: #fff;
+}
+
+p.profit
+{
+    font-weight: bold;
+    color: green;
+}
+
+p.loss
+{
+    font-weight: bold;
+    color: red;
+}
+
+div#profile
+{
+    float: left;
+    margin-left: 50px;
+}
+
+div#profile_info
+{
+    width: 60%;
+}
+
+img#profile_pic
+{
+    height: 200px;
+    width: 200px;
+}
+
+#upload_pic_button
+{
+    width: 150px;
+    height: 50px;
+}
+
+#upload_pic_submit
+{
+    width: 120px;
+    height: 30px;
+}
+
+.p_info
+{
+    float: left;
+    margin: 0;
+}
+
+.formError
+{
+    color: blue;
+    margin: 0;
+    display: block;
+    font-family: Arial;
+    font-size: 0.6em !important;
+}
+
+#users_div
+{
+    width: 30%;
+    float: left;
+    margin: 20px 10px 0 200px;
+    border: 1px solid black;
+       padding: 20px;
+}
+
+#cash_div
+{
+    width: 30%;
+    float: left;
+    margin: 20px auto auto 20px;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+#comments_div
+{
+    width: 30%;
+    float: left;
+    margin: 20px 10px 0 200px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.remove_user_div
+{
+    
+    margin-top: 10px;    
+}
+
+.remove_user_div ul
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+.remove_user_div li
+{
+    text-align: center;
+}
+
+#ta_comment
+{
+    margin-top: 20px;
+}
+
+.user_comment
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+    text-align: left;
+    width: 60%;
+    background-color: #D8D8D8;
+}
+
+#comment_username
+{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#comment_datetime
+{
+    display: inline;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+#comment
+{
+    margin-left: 20px;
+}
+
+.remove_comment
+{
+    float: right;    
+    font-size: 0.8em;
+    background-color: white;
+    padding: 5px;
+    
+
+}
+
+.remove_comment_link
+{
+    text-decoration: none;
+}
+
+.remove_comment:hover
+{
+    background-color: silver;
+}
